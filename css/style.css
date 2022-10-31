@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    line-height: 1.4;
+    font-family: Source San Pro,sans-serif;
+}
+.header{
+    background: grey;
+    height: 590px;
+    padding-top: 1vh;
+    color: #fff;
+    position: sticky;
+    background: 
+        linear-gradient(to bottom,rgba(0, 0, 0, 0.753),#0000),
+        center top / cover url('../image/Banniere-Restaurant-Mishiguene.jpg') fixed
+    /*background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.753),#0000),url('../image/Banniere-Restaurant-Mishiguene.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-attachment: scroll,fixed;*/
+    
+}
+.img-header{
+    width: 100%;
+    height: auto;
+}
+.header-title{
+    font-style: italic;
+    text-align: center;
+}
+.header-nav{
+    text-align: center;
+    z-index: 2;
+    background: rgba(126, 115, 115, 0.185);
+}
+.header-nav a{
+    padding : 0 50px;
+    color: inherit;
+    text-decoration: none;
+}
+.header-nav a:hover{
+    text-decoration: underline;
+    background:rgb(81, 80, 80) ;
+}
+.main{
+    background: lightgrey;
+    padding: 10px;
+    font-size: 16px;
+}
+main p{
+    text-align: justify;
+    
+}
+.footer{
+    background: gray;
+    padding: 10px 10px;
+}
+.align-left{
+    float: left;
+    margin: 10px;
+}
+.align-right{
+    float:right;
+    margin: 15px;
+
+}
+hr{
+    clear: both;
+}
